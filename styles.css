@@ -32,13 +32,12 @@ body {
 .header h1 {
     font-weight: 500;
     font-size: 45px;
-    font-style: italic;
     font-weight: 600;
 }
 
 .header h1 span {
     color: rgb(103, 42, 183);
-    border-bottom: 4px solid rgb(103, 42, 183);
+    font-style: italic;
 }
 
 .display img {
