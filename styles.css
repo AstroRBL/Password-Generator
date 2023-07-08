@@ -39,7 +39,6 @@ body {
 .header h1 span {
     color: rgb(103, 42, 183);
     border-bottom: 4px solid rgb(103, 42, 183);
-    padding-bottom: 7px;
 }
 
 .display img {
@@ -51,7 +50,8 @@ body {
     border: 0;
     outline: 0;
     font-size: 24px;
-    height: 20px;
+    height: 40px;
+    background-color: #fff;
 }
 
 .options {
