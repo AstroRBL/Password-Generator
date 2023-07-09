@@ -41,9 +41,18 @@ body {
 }
 
 .display img {
-    width: 30px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
-}
+    transition-duration: 0.8s;
+  }
+  
+  .display img:hover {
+    transform: scale(1.2);
+  }
+  .display img:active{
+    transform: scale(0.8);
+  }
 
 .display input {
     border: 0;
@@ -61,7 +70,6 @@ body {
     font-size: 18px;
     margin-right: 10px;
 }
-
 .options input {
     border: 1px solid rgb(214, 174, 242);
     padding: 5px 10px;
@@ -69,7 +77,13 @@ body {
     border-radius: 15px;
     width: 60px;
     font-style: italic;
-    
+    transition-duration: 1s;
+}
+.options input:hover{
+    transform: scale(1.2);
+}
+.options input:active{
+    transform: scale(0.9);
 }
 
 .header button img {
@@ -92,13 +106,16 @@ body {
     cursor: pointer;
     margin-top: 30px;
     margin-right: 20px;
-    transition: transform 2s ease;
-    transition: 2s;
+    transition: transform 2s ease-out;
+    transition: 0.7s;
 }
 
 .header button:hover{
-    transform: translateX(10px);
     background-color: rgb(152, 86, 239);
+
+}
+.header button:active{
+    transform: scale(0.9);
 }
 
 .error {
